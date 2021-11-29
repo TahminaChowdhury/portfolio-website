@@ -5,7 +5,7 @@ import img from '../../images/IMG_E6792-removebg-preview.png'
 
 const Home = () => {
     return (
-        <div className="container my-5" id="home">
+        <div className="container my-5 py-5" id="home">
             <div className="row d-flex justify-content-around">
                 <div className="col-sm-12 col-md-6 col-lg-6">
                     <div className="myPic">
@@ -13,10 +13,12 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6">
-                    <div className="header">
-                        <h1 className="title">I'M
-                        TAHMINA CHOWDHURY
+                    <div className="header text-center">
+                        <h1 className="title">I'M TAHMINA CHOWDHURY
                         </h1>
+                        <h1>WEB DEVELOPER</h1>
+                        <p>I'm a front-end developer. 
+                        </p>
                     </div>
                 </div>
             </div>
