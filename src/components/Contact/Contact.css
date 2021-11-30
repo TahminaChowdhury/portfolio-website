@@ -1,0 +1,15 @@
+.input-field input, textarea{
+    width: 100%;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid hsla(0,0%,100%,.5);  
+}
+.submit-input input{
+    width: auto;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid hsla(0,0%,100%,.5); 
+    color: hsla(0,0%,100%,.5);
+}

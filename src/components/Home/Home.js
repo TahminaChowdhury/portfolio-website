@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css'
-import img from '../../images/IMG_E6792-removebg-preview.png'
+
+
 
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
             <div className="row d-flex justify-content-around">
                 <div className="col-sm-12 col-md-6 col-lg-6">
                     <div className="myPic">
-                        <img src={img} className="img-fluid rounded-3" alt="" />
+                        
                     </div>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6">
@@ -19,6 +20,7 @@ const Home = () => {
                         <h1>WEB DEVELOPER</h1>
                         <p>I'm a front-end developer. 
                         </p>
+
                     </div>
                 </div>
             </div>
