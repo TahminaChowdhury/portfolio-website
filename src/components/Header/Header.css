@@ -1,0 +1,28 @@
+.top-banner{
+    background-image: url('../../images/black-background-hd-1680x1050-54028.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+  .name{
+    color:#ec008c;
+  }
+  .myPic img{
+    width: 40%;
+  }
+  .Header h1{
+    font-size: 51px;
+    line-height: 62px;
+    font-weight: 800;
+  }
+  
+  .header p{
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .resume-btn{
+    background: linear-gradient(#a00361, #ff4f4f);
+    color: White;
+    border: 1px solid violet;
+    font-size: 16px;
+  }
