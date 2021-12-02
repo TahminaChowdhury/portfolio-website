@@ -4,7 +4,7 @@ import MyProjects from './MyProjects';
 const Portfolio = () => {
     const [projects, setProjects] = useState([]);
     useEffect(()=> {
-        fetch('data.json')
+        fetch('https://raw.githubusercontent.com/TahminaChowdhury/portfolio-website/main/public/data.json')
         .then(res => res.json())
         .then(data => setProjects(data))
     },[])
