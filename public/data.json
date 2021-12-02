@@ -9,7 +9,7 @@
       "description": "A complete responsive and single page application sunglass-selling website with firebase authentication.Users can buy products and can delete their orders and give a review on the dashboard page. The review will appear on the home page.Admin can manage all orders, add new products, delete new products,and also an admin can make a new admin.",
       "technology": "ReactJS, React Router, Material UI, Bootstrap 5, Firebase Authentication, Node.js, Express.js, MongoDB, Heroku.",
       "liveLink": "https://eye-goggles.web.app/",
-      "clientCode": "https://github.com/TahminaChowdhury/eye-goggles-website",
+      "clientSideCode": "https://github.com/TahminaChowdhury/eye-goggles-website",
       "serverCode": "https://github.com/TahminaChowdhury/eye-goggles-server-side"
 
     },
@@ -27,7 +27,7 @@
       "clientSideCode": "https://github.com/TahminaChowdhury/tourism-website",
       "serverCode": "https://github.com/TahminaChowdhury/tourism-website-server-side"
     },
-    
+
     {
       "id": 3,
       "name": "Mind Health clinic",
