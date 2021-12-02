@@ -10,6 +10,7 @@ import About from './components/About/About'
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
 import NotFound from './components/NotFound/NotFound';
+import ProjectDetails from './components/Portfolio/ProjectDetails';
 
 
 
@@ -41,6 +42,10 @@ function App() {
 
           <Route path="/portfolio">
             <Portfolio></Portfolio>
+          </Route>
+
+          <Route path="/projectdetails/:id">
+            <ProjectDetails></ProjectDetails>
           </Route>
 
           <Route path="/contact">

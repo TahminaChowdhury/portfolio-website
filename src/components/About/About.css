@@ -1,0 +1,5 @@
+.about-section img{
+    width: 80px;
+    height: 100%;
+    object-fit: cover;
+}
