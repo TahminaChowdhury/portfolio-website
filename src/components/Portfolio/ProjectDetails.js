@@ -21,6 +21,23 @@ const ProjectDetails = () => {
             <div className="row project">
                 <div className="container w-50">
                     <div className="col-sm-12 col-md-12 col-lg-12">
+                        <div className="d-flex justify-content-between">
+                            <h4>Description</h4>
+                            <div>
+                            <a href={projectDetails.liveLink}>
+                                <button className="me-2 px-3 py-2  rounded-pill btn-regular">Live Site</button>
+                            </a>
+                            <a href={projectDetails.clientSideCode}>
+                                <button className="me-2 px-3 py-2  rounded-pill btn-regular">Client Side</button>
+                            </a>
+                            <a href={projectDetails.serverCode}>
+                                <button className="me-2 px-3 py-2  rounded-pill btn-regular">Server Side</button>
+                            </a>
+                            </div>
+                        </div>
+                        <div className="my-5">
+                        <h5>{projectDetails.description}</h5>
+                        </div>
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">

@@ -1,5 +1,14 @@
+.project h4{
+    width: 50px;
+    border-bottom: 5px solid #B000B9;
+}
 .project img{
     width: 100%;
     height: 500px;
     object-fit: cover;
+}
+.btn-regular{
+    background-color: #B000B9;
+    color: white;
+    border: 5px solid #FF67E7;
 }

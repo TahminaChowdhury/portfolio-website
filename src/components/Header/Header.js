@@ -8,7 +8,7 @@ import resume from '../../data/Tahmina-Chowdhury-Resume.pdf'
 const Header = () => {
     return (
         <div>
-            <div className=" top-banner" id="home">
+            <div className="" id="home">
                 <div className="row d-flex justify-content-center">
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className="myPic text-center mt-5">
@@ -16,7 +16,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6">
-                        <div className="header text-start">
+                        <div className="header text-start mt-5 pt-5">
                             <div className="text-start mt-5 pt-5">
                             <h1>Hi, I'm <span className="name">Tahmina Chowdhury</span>
                             </h1>

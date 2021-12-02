@@ -11,7 +11,7 @@ const Portfolio = () => {
     return (
         <div id="portflio" className="container">
             <div className="row">
-                <h4 className="text-center mb-5">My Projects</h4>
+                <h2 className="text-center mb-5">MY PROJECTS</h2>
                 {
                     projects.map(project => <MyProjects project={project}></MyProjects>)
                 }

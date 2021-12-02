@@ -12,18 +12,18 @@ const About = () => {
         <div id="about" className="container my-5 py-5 about-section">
             <div className="row">
                 <div className="col-12">
-                    <div className="text-center">
+                    {/* <div className="text-center">
                     <h3 className="title">ABOUT ME</h3>
                     <h5>I'm a Front End Developer from Dhaka,Bangladesh</h5>
                     <p>I enjoy building attractive, accessible and user-friendly web interfaces.</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
             {/* skills div */}
 
             <div className="row">
-                <h4 className="text-center">My skills</h4>
+                <h2 className="text-center">MY SKILLS</h2>
                 <div className="row text-center mt-5">
                     <h4 className="text-start my-4">Expertise</h4>
                     <div className="col-4 mb-5">
