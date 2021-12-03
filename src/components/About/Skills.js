@@ -16,9 +16,9 @@ const Skills = () => {
         <div className="my-5 pt-5 skills-section">
             <div className="row">
                 <h2 className="text-center">MY SKILLS</h2>
-                <div className="row text-center mt-3 ">
+                <div className="row text-center mt-3">
                     <h4 className="text-start my-5" style={{color: "#C400FF"}}>Expertise</h4>
-                    <div className="col-sm-4 col-md-4 col-lg-4">
+                    <div className="col-sm-4 col-md-4 col-lg-4 pb-4">
                         <div>
                         <img src={html} className="img-fluid" alt="" />
                         <h6 className="mt-3">HTML</h6>
@@ -35,7 +35,7 @@ const Skills = () => {
                     </div>
                     <div className="col-sm-4 col-md-4 col-lg-4">
                         <img src={react} className="img-fluid" alt="" />
-                        <h6 className="mt-3">RecatJS</h6>
+                        <h6 className="mt-3">React</h6>
                     </div>
                     <div className="col-sm-4 col-md-4 col-lg-4">
                         <img src={bootstrap} className="img-fluid" alt="" />
@@ -63,7 +63,7 @@ const Skills = () => {
                     </div>
                     <div className="col-sm-6 col-md-3 col-lg-3">
                         <img src={firebase} className="img-fluid" alt="" />
-                        <h6 className="mt-3">FirebaseE</h6>
+                        <h6 className="mt-3">Firebase</h6>
                     </div>
                 </div>
             </div>
