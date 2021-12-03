@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavigationBar.css'
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
     return (
@@ -13,7 +14,7 @@ const NavigationBar = () => {
             <Nav.Link href="#home">HOME</Nav.Link>
             <Nav.Link href="#about">ABOUT</Nav.Link>
             <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
-            <Nav.Link href="#blog">BLOG</Nav.Link>
+            <Nav.Link href="#blog" as={Link} to="/blog">BLOG</Nav.Link>
             <Nav.Link href="#contact">CONTACT</Nav.Link>
             </Nav>
         </Navbar.Collapse>

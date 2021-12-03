@@ -1,68 +1,39 @@
 import React from 'react';
 import './About.css'
-import html from '../../images/html5.png'
-import css from '../../images/css3-logo-png-transparent.png'
-import react from '../../images/kisspng-react-javascript-angularjs-ionic-atom-5b154be6709500.6532453515281223424611.jpg'
-import js from '../../images/javascript-logo-8892AEFCAC-seeklogo.com.png'
-import bootstrap from '../../images/png-transparent-responsive-web-design-web-development-bootstrap-cascading-style-sheets-web-browser-world-wide-web-purple-web-design-violet.png'
+import img from '../../images/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg'
+
+import Skills from './Skills';
 
 
 const About = () => {
     return (
         <div id="about" className="container my-5 py-5 about-section">
+            <h1 className="text-center mb-5 pb-5">ABOUT ME</h1>
             <div className="row">
-                <div className="col-12">
-                    {/* <div className="text-center">
-                    <h3 className="title">ABOUT ME</h3>
-                    <h5>I'm a Front End Developer from Dhaka,Bangladesh</h5>
-                    <p>I enjoy building attractive, accessible and user-friendly web interfaces.</p>
-                    </div> */}
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                    <div>
+                        <img src={img} className="img-fluid" alt="" />
+                    </div>
                 </div>
-            </div>
-
-            {/* skills div */}
-
-            <div className="row">
-                <h2 className="text-center">MY SKILLS</h2>
-                <div className="row text-center mt-5">
-                    <h4 className="text-start my-4">Expertise</h4>
-                    <div className="col-4 mb-5">
-                        <h6>HTML</h6>
-                    </div>
-                    <div className="col-4">
-                        <h6>CSS</h6>
-                    </div>
-
-                    <div className="col-4">
-                        <h6>JavaScript</h6>
-                    </div>
-                    <div className="col-4">
-                        <h6>RecatJS</h6>
-                    </div>
-                    <div className="col-4">
-                        <h6>Bootstrap</h6>
-                    </div>
-                    <div className="col-4">
-                        <h6>Material UI</h6>   
-                    </div>
-                   
-                </div>
-                <div className="row text-center mt-5">
-                <h4 className="text-start my-4">Comfortable</h4>
-                <div className="col-3">
-                        <h6>Node.js</h6>
-                    </div>
-                    <div className="col-3 mb-5">
-                        <h6>Express.js</h6>
-                    </div>
-                    <div className="col-3">
-                        <h6>Mongodb</h6>
-                    </div>
-                    <div className="col-3">
-                        <h6>FirebaseE</h6>
+                <div className="col-sm-12 col-md-6 col-lg-6">
+                    <div>
+                        <p  className="py-4">Hello World! I’m Tahmina Chowdhury. I'm currently pursuing a bachelor’s degree in management.
+                            <br/>
+                            <br/>
+                            I have always been interested in web
+                            development, and I have the necessary skills required for the role. I have been
+                            working as a web developer for 4 months and I have done some projects by using front-end
+                            technologies. I have a good understanding of HTML, CSS, JavaScript, React, Bootstrap, and Material UI.
+                            <br/>
+                            <br/>
+                            I always put quality on top of anything, and
+                            whatever projects I made were real-life projects. Along with these technical
+                            skills, I possess good communication skills and would like to improve my skills by working in your company.
+                        </p>
                     </div>
                 </div>
             </div>
+            <Skills></Skills>
         </div>
     );
 };
