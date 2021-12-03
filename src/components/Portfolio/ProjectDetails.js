@@ -17,7 +17,7 @@ const ProjectDetails = () => {
     })
    },[id])
     return (
-        <div>
+        <div className="my-5 py-5">
             <div className="row project">
                 <div className="container w-50">
                     <div className="col-sm-12 col-md-12 col-lg-12">
