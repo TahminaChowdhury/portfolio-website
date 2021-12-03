@@ -4,10 +4,11 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
+    
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark">
         <Container>
-        <Navbar.Brand href="#home" style={{color: "#C400FF"}}>Tahmina Chowdhury</Navbar.Brand>
+        <Navbar.Brand href="#home">Tahmina Chowdhury</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">

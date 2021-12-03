@@ -9,7 +9,7 @@ const Portfolio = () => {
         .then(data => setProjects(data))
     },[])
     return (
-        <div id="portflio" className="container">
+        <div id="portfolio" className="container">
             <div className="row">
                 <h2 className="text-center mb-5">MY PROJECTS</h2>
                 {
