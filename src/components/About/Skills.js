@@ -13,10 +13,10 @@ import firebase from '../../images/firebase.png'
 
 const Skills = () => {
     return (
-        <div className="my-5 py-5 skills-section">
+        <div className="my-5 pt-5 skills-section">
             <div className="row">
                 <h2 className="text-center">MY SKILLS</h2>
-                <div className="row text-center mt-5">
+                <div className="row text-center mt-3 ">
                     <h4 className="text-start my-5" style={{color: "#C400FF"}}>Expertise</h4>
                     <div className="col-sm-4 col-md-4 col-lg-4">
                         <div>

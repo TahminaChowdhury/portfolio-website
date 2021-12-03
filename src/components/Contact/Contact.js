@@ -18,7 +18,7 @@ const Contact = () => {
       e.target.reset();
   };
     return (
-        <div id="contact" className="container my-5 py-5 text-center">
+        <div id="contact" className="container my-5 text-center">
          
             <div className="my-5">
                 <p style={{color: "#C67ACE"}}>Have Question ?</p>

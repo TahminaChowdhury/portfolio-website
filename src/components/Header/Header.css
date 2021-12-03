@@ -26,3 +26,17 @@
     border: 1px solid violet;
     font-size: 16px;
   }
+  .social-link a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 52px;
+    text-align: center;
+    transition: .3s;
+    font-size: 30px;
+    color: white;
+    margin: 0 6px;
+    background: #2b2a2a;
+    border-radius: 50%;
+  }
+  

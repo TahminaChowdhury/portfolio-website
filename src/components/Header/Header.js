@@ -31,11 +31,11 @@ const Header = () => {
                             <a href={resume} download="Tahmina-Chowdhury-Resume.pdf">
                             <button className="resume-btn px-4 py-2 rounded-pill">Resume</button>
                             </a>
-                            {/* <div>
-                                <a href=""></a>
-                                <a href=""></a>
-                                <a href=""></a>
-                            </div> */}
+                            <div className="d-flex mt-4 social-link ">
+                                <a href="https://www.facebook.com/profile.php?id=100008424706935"><i class="fab fa-facebook"></i></a>
+                                <a href="https://github.com/TahminaChowdhury"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/tahminachowdhury"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
                             </div>
                         </div>
                     </div>
