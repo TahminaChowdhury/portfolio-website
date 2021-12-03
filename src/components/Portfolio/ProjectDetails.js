@@ -3,6 +3,7 @@ import './ProjectDetails.css'
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 
+
 const ProjectDetails = () => {
     const {id} = useParams();
     const [projectDetails, setProjectDetails] = useState([]);
@@ -17,7 +18,8 @@ const ProjectDetails = () => {
     })
    },[id])
     return (
-        <div className="my-5 py-5">
+        <div>
+        <div className="mt-5 py-5">
             <div className="row project">
                 <div className="container w-50">
                     <div className="col-sm-12 col-md-12 col-lg-12">
@@ -63,6 +65,7 @@ const ProjectDetails = () => {
                 </div>
             </div>
         </div>
+    </div>
     );
 };
 

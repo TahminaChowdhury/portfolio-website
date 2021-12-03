@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import MyProjects from './MyProjects';
+import Slide from 'react-reveal/Slide';
 
 const Portfolio = () => {
     const [projects, setProjects] = useState([]);
@@ -9,14 +10,17 @@ const Portfolio = () => {
         .then(data => setProjects(data))
     },[])
     return (
-        <div id="portfolio" className="container">
-            <div className="row">
-                <h2 className="text-center mb-5">MY PROJECTS</h2>
-                {
-                    projects.map(project => <MyProjects project={project}></MyProjects>)
-                }
+        <Slide bottom>
+            <div id="portfolio" className="container">
+                <div className="row">
+                    <h2 className="text-center mb-5">MY PROJECTS</h2>
+                    
+                    {
+                        projects.map(project => <MyProjects project={project}></MyProjects>)
+                    }
+                </div>
             </div>
-        </div>
+        </Slide>
     );
 };
 

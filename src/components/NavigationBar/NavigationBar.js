@@ -2,13 +2,16 @@ import React from 'react';
 import './NavigationBar.css'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import LightSpeed from 'react-reveal/LightSpeed';
 
 const NavigationBar = () => {
     
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" className="my-3">
         <Container>
+        <LightSpeed>
         <Navbar.Brand href="#home" style={{color: "#C67ACE"}}>𝓣𝓪𝓱𝓶𝓲𝓷𝓪</Navbar.Brand>
+        </LightSpeed>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
