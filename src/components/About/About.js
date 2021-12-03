@@ -8,7 +8,7 @@ import Skills from './Skills';
 const About = () => {
     return (
         <div id="about" className="container my-5 py-5 about-section">
-            <h1 className="text-center mb-5 pb-5">ABOUT ME</h1>
+            <h2 className="text-center mb-5 pb-5">ABOUT ME</h2>
             <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-6">
                     <div>
