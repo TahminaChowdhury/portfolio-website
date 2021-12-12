@@ -50,7 +50,7 @@ const Skills = () => {
                     
                     </div>
                     <div className="row text-center mt-5">
-                    <h4 className="text-start my-5" style={{color: "#C400FF"}}>Familiar With</h4>
+                    <h4 className="text-start my-5" style={{color: "#C400FF"}}>Comfortable</h4>
                     <div className="col-sm-6 col-md-3 col-lg-3">
                             <img src={nodejs} className="img-fluid" alt="" />
                             <h6 className="mt-3">Node.js</h6>
