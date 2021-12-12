@@ -10,7 +10,7 @@ const NavigationBar = () => {
         <Navbar collapseOnSelect expand="lg" variant="dark" className="my-3">
         <Container>
         <LightSpeed>
-        <Navbar.Brand href="#home" style={{color: "#C67ACE"}}>𝓣𝓪𝓱𝓶𝓲𝓷𝓪</Navbar.Brand>
+        <Navbar.Brand href="#home" style={{color: "#C400FF"}}>𝓣𝓪𝓱𝓶𝓲𝓷𝓪</Navbar.Brand>
         </LightSpeed>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
