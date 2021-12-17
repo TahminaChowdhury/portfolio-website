@@ -19,11 +19,11 @@ const Skills = () => {
                 <div className="row">
                     <h2 className="text-center">MY SKILLS</h2>
                     <div className="row text-center mt-3">
-                        <h4 className="text-start my-5" style={{color: "#C400FF"}}>Expertise</h4>
+                        <h4 className="text-start my-5" style={{ color: "#C400FF" }}>Expertise</h4>
                         <div className="col-sm-4 col-md-4 col-lg-4 pb-4">
                             <div>
-                            <img src={html} className="img-fluid" alt="" />
-                            <h6 className="mt-3">HTML</h6>
+                                <img src={html} className="img-fluid" alt="" />
+                                <h6 className="mt-3">HTML</h6>
                             </div>
                         </div>
                         <div className="col-sm-4 col-md-4 col-lg-4">
@@ -45,13 +45,13 @@ const Skills = () => {
                         </div>
                         <div className="col-sm-4 col-md-4 col-lg-4">
                             <img src={materilaUi} className="img-fluid" alt="" />
-                            <h6 className="mt-3">Material UI</h6>   
+                            <h6 className="mt-3">Material UI</h6>
                         </div>
-                    
+
                     </div>
                     <div className="row text-center mt-5">
-                    <h4 className="text-start my-5" style={{color: "#C400FF"}}>Comfortable</h4>
-                    <div className="col-sm-6 col-md-3 col-lg-3">
+                        <h4 className="text-start my-5" style={{ color: "#C400FF" }}>Comfortable</h4>
+                        <div className="col-sm-6 col-md-3 col-lg-3">
                             <img src={nodejs} className="img-fluid" alt="" />
                             <h6 className="mt-3">Node.js</h6>
                         </div>
