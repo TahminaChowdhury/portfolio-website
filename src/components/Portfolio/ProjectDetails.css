@@ -1,14 +1,29 @@
-.project h4{
-    width: 50px;
-    border-bottom: 5px solid #B000B9;
+.project h4 {
+  width: 50px;
+  border-bottom: 5px solid #b000b9;
 }
-.project img{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
+.project img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
-.btn-regular{
-    background-color: #B000B9;
-    color: white;
-    border: 5px solid #FF67E7;
+.btn-regular {
+  background-color: #b000b9;
+  color: white;
+  font-size: 14px;
+  border: 5px solid #ff67e7;
+}
+@media (min-width: 500px) {
+  .project-links-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .project-links {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .project-links {
+    margin-top: 20px;
+  }
 }

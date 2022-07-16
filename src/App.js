@@ -1,20 +1,13 @@
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import NavigationBar from './components/NavigationBar/NavigationBar'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import NavigationBar from './components/NavigationBar/NavigationBar';
 import Home from './components/Home/Home';
-import About from './components/About/About'
-import Portfolio from './components/Portfolio/Portfolio'
-import Contact from './components/Contact/Contact'
+import About from './components/About/About';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound';
 import ProjectDetails from './components/Portfolio/ProjectDetails';
 import Blog from './components/Blog/Blog';
-
-
-
 
 function App() {
   return (
@@ -60,7 +53,6 @@ function App() {
           <Route exact path="*">
             <NotFound></NotFound>
           </Route>
-          
         </Switch>
       </Router>
     </div>
