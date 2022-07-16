@@ -21,7 +21,7 @@ const ProjectDetails = () => {
         <div>
         <div className="mt-5 py-5">
             <div className="row project">
-                <div className="container w-50">
+                <div className="container w-75">
                     <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="d-flex justify-content-between">
                             <h4>Description</h4>
@@ -43,13 +43,13 @@ const ProjectDetails = () => {
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src={projectDetails.img} class="d-block w-100" alt="..."/>
-                            </div>
-                            <div class="carousel-item">
                             <img src={projectDetails.img1} class="d-block w-100" alt="..."/>
                             </div>
                             <div class="carousel-item">
                             <img src={projectDetails.img2} class="d-block w-100" alt="..."/>
+                            </div>
+                            <div class="carousel-item">
+                            <img src={projectDetails.img3} class="d-block w-100" alt="..."/>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

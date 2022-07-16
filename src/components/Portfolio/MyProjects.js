@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const MyProjects = ({project}) => {
     const {id,img, name} = project;
     return (
-            <div className="col-sm-12 col-md-4 col-lg-4 mb-5 pb-5">
+            <div className="col-sm-12 col-md-6 col-lg-6 mb-5 pb-5 project-details">
                 <div className="h-100">
                     <div>
                         <img src={img} className="img-fluid" alt="" />
