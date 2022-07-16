@@ -2,7 +2,7 @@ import React from 'react';
 import './Banner.css';
 import Typical from 'react-typical';
 import img from '../../images/IMG_E6792-removebg-preview (1) (1).png';
-import resume from '../../data/Tahmina-Chowdhury-Resume.pdf';
+import resume from '../../data/Tahmina Chowdhury Front-End Developer -Resume.pdf';
 
 const Banner = () => {
   return (
@@ -27,7 +27,7 @@ const Banner = () => {
                     wrapper="b"
                   />
                 </h2>
-                <a href={resume} download="Tahmina-Chowdhury-Resume.pdf">
+                <a href={resume} download="Tahmina Chowdhury Front-End Developer Resume.pdf">
                   <button className="resume-btn px-4 py-2 rounded-pill">
                     Resume
                   </button>
