@@ -6,7 +6,7 @@
       "img1": "https://i.ibb.co/QMBQ7gy/Screenshot-177.png",
       "img2": "https://i.ibb.co/Tgh3zqQ/Screenshot-173.png",
       "img3": "https://i.ibb.co/GR5mk9W/Screenshot-174.png",
-      "description": "A hotel booking full responsive website with firebase authentication.Users can book hotel rooms and also can update or delete their reservations.Admin can approve a reservation and also can delete or update reservation status.",
+      "description": "A hotel booking full responsive website with firebase authentication and redux.Users can book hotel rooms and also can update or delete their reservations.Admin can approve a reservation and also can delete or update reservation status.",
       "technology": "ReactJS, React-Redux, React Router, React Bootstrap, Firebase Authentication, Node.js, Express.js, MongoDB, Heroku",
       "liveLink": "https://the-new-view-fe49a.web.app/",
       "clientSideCode": "https://github.com/TahminaChowdhury/NewView",

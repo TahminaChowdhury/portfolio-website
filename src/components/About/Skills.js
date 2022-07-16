@@ -44,7 +44,7 @@ const Skills = () => {
             </div>
             <div className="col-sm-4 col-md-4 col-lg-4">
               <img src={redux} className="img-fluid" alt="" />
-              <h6 className="mt-3">React-Redux</h6>
+              <h6 className="mt-3">Redux</h6>
             </div>
             <div className="col-sm-4 col-md-4 col-lg-4">
               <img src={bootstrap} className="img-fluid" alt="" />

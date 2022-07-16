@@ -27,7 +27,7 @@ const About = () => {
                 I have been working as a web developer for one year and I have
                 done some projects by using front-end technologies. You can
                 check it through portfolio section on this website. I have a
-                good understanding of HTML, CSS, JavaScript, React, React-Redux,
+                good understanding of HTML, CSS, JavaScript, React, Redux,
                 Bootstrap, and Material UI.Also, I'm familir with Back-end
                 technologies such as Node.js, Express.js, MongoDB, Firebase
                 Authentication.
